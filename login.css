@@ -37,8 +37,9 @@ p {
  font-weight: 300;
  letter-spacing: 0.05rem;
 }
+
 *{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins' , sans-serif;
   margin:0; padding:0;
   box-sizing: border-box;
   outline: none; border:none;
