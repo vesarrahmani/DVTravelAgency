@@ -98,6 +98,6 @@ function validoMeRegex(){
 	console.log("Value is not valid!");
 		}
 
-		//Si jeni
+		
 
 	}
