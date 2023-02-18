@@ -11,7 +11,6 @@
 <body>
    
 <!-- header section starts  -->
-<h1>hh</h1>
 <section id="header">
    <div class="header container">
      <div class="nav-bar">
@@ -29,6 +28,7 @@
            <li><a href="packages.html" data-after="Service">Packages</a></li>
            <li><a href="index.html" data-after="About">About</a></li>
            <li><a href="index.html" data-after="Contact">Contact</a></li>
+           <li><a href="register.html" data-after="Contact">Register</a></li>
            <li><a href="login.html" data-after="Contact">Log In</a></li>
            <li><a href="book.html" data-after="Contact">Book now</a></li>
          </ul>
@@ -38,59 +38,39 @@
  </section>
 <!-- header section ends -->
 
-<div class="heading" style= "background:url(img/header-bg-3.png) no-repeat">
-   <h1>Log in</h1>
+<div class="heading" style="background:url(img/header-bg-3.png) no-repeat">
+  <h1>Log in</h1>
 </div>
 
 <!-- login section starts  -->
 
-<!-- <section class="booking"> -->
+<section class="login">
 
-   <!-- <h1 class="heading-title">book your trip!</h1> -->
+  <h1 class="heading-title">Login now!</h1>
 
-   <form method="post" class="book-form">
+  <form method="post" class="login-form">
 
-      <div class="flex">
-        <div class="login-page">
-            <div class="form">
-              <div class="login">
-                <div class="login-header">
-                  <h3>LOGIN</h3>
-                  <p>Please enter your credentials to login.</p>
-                </div>
-              </div>
-              <form class="login-form">
-                <input type="text" placeholder="username"/>
-                <input type="password" placeholder="password"/>
-                <button>login</button>
-                <p class="message">Not registered? <a href="#">Create an account</a></p>
-              </form>
-            </div>
-          </div>
-      </div>
+     <div class="flex">
+  
+        <div class="inputBox">
+           <span>email :</span>
+           <input type="email" placeholder="enter your email" id="email" name="email">
+        </div>
+        <br></br>
+        <div class="inputBox">
+           <span>Password :</span>
+           <input type="password" placeholder="enter your password" id="password" name="pasi">
+        </div>
+     </div>
 
-      <!-- <input type="submit" value="submit" class="btn" name="send" onclick="validoMeRegex()"> -->
+     <input type="submit" value="login" class="btn" name="send" onclick="validateLogin()">
+     <p class="message">Not registered? <a href="register.html">Create an account</a></p> 
 
-   </form>
+  </form>
 
-<!-- </section> -->
+</section>
 
-<!-- booking section ends -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- login section ends -->
 
 
 <!-- footer section starts  -->
