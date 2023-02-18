@@ -7,7 +7,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $username = $_POST["username"];
   $password = $_POST["password"];
 
-  // Validate the data
+  // validimi i te dhenave
+
+
   if (empty($username) || empty($password)) {
     // Display an error message
     echo "Please enter a username and password.";
