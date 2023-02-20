@@ -15,7 +15,7 @@
    <div class="header container">
      <div class="nav-bar">
        <div class="brand">
-         <a href="index.html">
+         <a href="index.php">
            <h1><span>V</span> <span>D </span>trip</h1>
          </a>
        </div>
@@ -24,13 +24,13 @@
            <div class="bar"></div>
          </div>
          <ul>
-           <li><a href="index.html" data-after="Home">Home</a></li>
-           <li><a href="packages.html" data-after="Service">Packages</a></li>
-           <li><a href="index.html" data-after="About">About</a></li>
-           <li><a href="index.html" data-after="Contact">Contact</a></li>
-           <li><a href="register.html" data-after="Contact">Register</a></li>
-           <li><a href="login.html" data-after="Contact">Log In</a></li>
-           <li><a href="book.html" data-after="Contact">Book now</a></li>
+           <li><a href="index.php" data-after="Home">Home</a></li>
+           <li><a href="packages.php" data-after="Service">Packages</a></li>
+           <li><a href="index.php" data-after="About">About</a></li>
+           <li><a href="index.php" data-after="Contact">Contact</a></li>
+           <li><a href="register.php" data-after="Contact">Register</a></li>
+           <li><a href="login.php" data-after="Contact">Log In</a></li>
+           <li><a href="book.php" data-after="Contact">Book now</a></li>
          </ul>
        </div>
      </div>
