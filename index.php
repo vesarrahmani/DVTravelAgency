@@ -46,7 +46,7 @@
         <h1>Let's <span></span></h1>
         <h1>Travel <span></span></h1>
         <h1>Together! <span></span></h1>
-        <a href="book.html" type="button" class="cta">Book now</a>
+        <a href="book.php" type="button" class="cta">Book now</a>
       </div>
     </div>
   </section>
