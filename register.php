@@ -95,7 +95,7 @@
       </div>
 
       <input type="submit" value="register" class="btn" name="send" onclick="validoMeRegex()">
-      <p class="message">Registered? <a href="login.html">Login here</a></p> 
+      <p class="message">Registered? <a href="login.php">Login here</a></p> 
 
    </form>
 
@@ -126,7 +126,7 @@
 
 <!-- footer section ends -->
 <!-- swiper js link  -->
-<script src="javascript code/app.js"></script>
+<script src="javascript code/app.php"></script>
 
 </body>
 </html>

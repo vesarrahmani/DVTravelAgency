@@ -108,6 +108,6 @@
           <p>Copyright © 2022 VD trip. All rights reserved</p>
         </div>
       </section>
-      <script src="javascript code/app.js"></script>
+      <script src="javascript code/app.php"></script>
 </body>
 </html>

@@ -180,7 +180,7 @@
     </div>
   </section>
   <!-- End Footer -->
-  <script src="javascript code/app.js"></script>
+  <script src="javascript code/app.php"></script>
 </body>
 
 </html>
