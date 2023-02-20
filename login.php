@@ -64,7 +64,7 @@
      </div>
 
      <input type="submit" value="login" class="btn" name="send" onclick="validateLogin()">
-     <p class="message">Not registered? <a href="register.html">Create an account</a></p> 
+     <p class="message">Not registered? <a href="register.php">Create an account</a></p> 
 
   </form>
 
