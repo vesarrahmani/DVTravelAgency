@@ -26,7 +26,7 @@ menu_item.forEach((item) => {
 
 
 
-//VALIDIMI
+//VALIDIMI i BOOK
 
 function validoMeRegex(){
     var Emri=document.getElementById('name').value;
@@ -98,6 +98,30 @@ function validoMeRegex(){
 	console.log("Value is not valid!");
 		}
 
-		//Si jeni
 
-	}
+	//VALIDIMI I LOGIN FORMES
+
+	function validateLogin(){
+		var email = document.getElementById('email').value;
+		var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+		var password = document.getElementById('password').value;
+		var passRegex = /^[A-Za-z0-9!@#$%^&*()_]{6,20}$/
+	
+		if (emailRegex.test(email)) {
+			console.log("Email is valid!");
+		} 
+			else {
+			console.log("Email is not valid!");
+		}
+	
+		if (passRegex.test(password)) {
+			console.log("Password is valid!");
+		} 
+			else {
+			console.log("Password is not valid!");
+		}
+		
+		}
+	
+
+}
