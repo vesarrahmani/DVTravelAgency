@@ -25,14 +25,35 @@
            <div class="bar"></div>
          </div>
          <ul>
-           <li><a href="index.php" data-after="Home">Home</a></li>
-           <li><a href="packages.php" data-after="Service">Packages</a></li>
-           <li><a href="index.php" data-after="About">About</a></li>
-           <li><a href="index.php" data-after="Contact">Contact</a></li>
-           <li><a href="register.php" data-after="Contact">Register</a></li>
-           <li><a href="login.php" data-after="Contact">Log In</a></li>
-           <li><a href="book.php" data-after="Contact">Book now</a></li>
-         </ul>
+            <?php 
+            session_start();
+            if(isset($_SESSION['role']) && $_SESSION['role']== 1 ){
+              ?>
+              <li><a href="dashboard.php" data-after="Dashboard">Dashboard</a></li>
+              <?php
+            }
+            ?>
+            <li><a href="index.php#hero" data-after="Home">Home</a></li>
+            <li><a href="packages.php" data-after="Service">Packages</a></li>
+            <li><a href="index.php#about" data-after="About">About</a></li>
+            <li><a href="index.php#contact" data-after="Contact">Contact</a></li>
+            <li><a href="register.php" data-after="Contact">Register</a></li>
+            <?php
+            if(!isset($_SESSION['role'])){
+              ?>
+              <li><a href="login.php" data-after="Contact">Log In</a></li>
+              <?php
+            }
+            ?>
+            <?php
+            if(isset($_SESSION['role'])){
+              ?>
+              <li><a href="loginRegister/logout.php" data-after="Contact">Log Out</a></li>
+              <?php
+            }
+            ?>
+            <li><a href="book.php" data-after="Contact">Book now</a></li>
+          </ul>
        </div>
      </div>
    </div>
@@ -48,8 +69,27 @@
 <section class="booking">
 
    <h1 class="heading-title">book your trip!</h1>
+   <?php
+            require_once 'bookingsMapper.php';
+            require_once 'bookingsconfig/bookings.php';
+            if (isset($_POST['bookNow'])) {
+                $name = $_POST['name'];
+                $email = $_POST['email'];
+                $phone = $_POST['phone'];
+                $address = $_POST['check_out_date'];
+                $destination = $_POST['destination'];
+                $guestNumber = $_POST['guestNumber'];
+                $check_in_date = $_POST['check_in_date'];
+                $check_out_date = $_POST['check_out_date'];
+                $booking = new Bookings(
+                  $name, $email, $phone,$address,$destination,$guestNumber,$check_in_date,$check_out_date
+                );
+                $mapper = new BookingsMapper();
+                $mapper->insertBooking($booking);
+            }
 
-   <form method="post" class="book-form">
+            ?>
+   <form method="post" action="#" class="book-form">
 
       <div class="flex">
          <div class="inputBox">
@@ -62,7 +102,7 @@
          </div>
          <div class="inputBox">
             <span>phone :</span>
-            <input type="number" placeholder="enter your number" id="phone" name="phone">
+            <input type="text" placeholder="enter your number" id="phone" name="phone">
          </div>
          <div class="inputBox">
             <span>address :</span>
@@ -70,23 +110,23 @@
          </div>
          <div class="inputBox">
             <span>where to :</span>
-            <input type="text" placeholder="place you want to visit" id="text" name="location">
+            <input type="text" placeholder="place you want to visit" id="text" name="destination">
          </div>
          <div class="inputBox">
             <span>how many :</span>
-            <input type="number" placeholder="number of guests" id="num" name="guests">
+            <input type="number" placeholder="number of guests" id="num" name="guestNumber">
          </div>
          <div class="inputBox">
             <span>arrivals :</span>
-            <input type="date" class="date" name="arrivals">
+            <input type="date" class="date" name="check_in_date">
          </div>
          <div class="inputBox">
             <span>leaving :</span>
-            <input type="date" class="date" name="leaving">
+            <input type="date" class="date" name="check_out_date">
          </div>
       </div>
 
-      <input type="submit" value="submit" class="btn" name="send" onclick="validoMeRegex()">
+      <input type="submit" value="submit" class="btn" name="bookNow" onclick="validoMeRegex()">
 
    </form>
 
