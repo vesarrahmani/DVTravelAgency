@@ -115,7 +115,7 @@
 
 <!-- footer section ends -->
 <!-- swiper js link  -->
-<script src="javascript code/app.php"></script>
+<script src="javascript code/app.js"></script>
 
 </body>
 </html>
