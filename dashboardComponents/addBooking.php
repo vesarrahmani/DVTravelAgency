@@ -1,3 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css code/userDashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css">
+ 
+
+
+
+
+    <title>Admin Panel</title>
+</head>
+
+<body>
+    <div class="side-menu">
+        <div class="brand-name">
+            <h1>Hi, Admin</h1>
+        </div>
+        <ul>
+            <li> <a href="../dashboard.php" ><i class="fa fa-home"></i> Dashboard</a></li>
+            <li><a href="usersDashboard.php"  ><i class="fa fa-users"></i> Users</a></li>
+            <li><a href="bookingsDashboard.php" ><i class="fa fa-calendar"></i> Bookings</a></li>
+            <li><a href="../index.php" ><i class="fa fa-home"></i>Home</a></li>
+        </ul>
+    </div>
+    <div class="container">
+   
 <div class="containerr">
     <?php
     require_once '../bookingsMapper.php';
@@ -65,3 +96,16 @@
 
     </form>
 </div>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+

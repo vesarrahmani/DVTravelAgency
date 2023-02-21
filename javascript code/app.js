@@ -125,3 +125,35 @@ function validoMeRegex(){
 	
 
 }
+
+
+
+//slider 
+
+var vargu=[
+    /*'img/img-2.jpg',*/
+    'img/s1.jpg',
+    /*'img/s2.jpg',
+    'img/img-3.jpg',*/
+    /*'img/img-4.jpg',*/
+    /*'img/s4.jpg',*/
+    'img/s5.webp',
+    'img/s6.jpg'
+    
+    ]
+    
+    var index=0;
+    var koha=2000;
+    
+    function krijoSlider(){
+        document.getElementById('imazhet').src=vargu[index];
+        index++;
+    
+        if(index==vargu.length){
+            index=0;
+        }
+        setTimeout("krijoSlider()", koha);
+    
+    }
+    
+    krijoSlider();

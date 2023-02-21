@@ -53,7 +53,7 @@ class UserMapper extends Database
         $phone = $user->getPhone();//
         $username= $user->getUsername();
         $email = $user->getEmail();
-        $password = password_hash($user->getPassword(),PASSWORD_BCRYPT); 
+        $password = hash("sha512",$user->getPassword()); 
         $role = $user->getRole();
         $query = "INSERT INTO user(firstname, lastname,city,country,phone,username,email, password, role)
          VALUES ('$firstname','$lastname', '$city','$country','$phone','$username', '$email', '$password','$role')";

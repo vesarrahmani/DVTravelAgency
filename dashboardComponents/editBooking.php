@@ -5,15 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css code/dashboard.css?v=<?php echo time(); ?>">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css code/userDashboard.css">
+    <title>Admin Panel</title>
 </head>
 
 <body>
-    <?php
-    include_once 'actionsSidebar.php';
-    ?>
+    <div class="side-menu">
+        <div class="brand-name">
+            <h1>Hi, Admin</h1>
+        </div>
+        <ul>
+            <li> <a href="../dashboard.php" ><i class="fa fa-home"></i> Dashboard</a></li>
+            <li><a href="usersDashboard.php"  ><i class="fa fa-users"></i> Users</a></li>
+            <li><a href="bookingsDashboard.php" ><i class="fa fa-calendar"></i> Bookings</a></li>
+            <li><a href="../index.php" ><i class="fa fa-home"></i>Home</a></li>
+        </ul>
+    </div>
+    <div class="container">
+       
+
+
     <div class="overview">
         <div class="title">
             <i class="fas fa-users-cog"></i>
@@ -120,7 +131,11 @@
             </div>
         </div>
     </div>
-    <script src="../javascript code/sidebar.js"></script>
+    </div>
 </body>
 
 </html>
+
+
+
+

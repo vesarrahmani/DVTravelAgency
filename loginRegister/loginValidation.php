@@ -54,7 +54,7 @@ class LoginLogic
         $user = $mapper->getUserByUsername($username);
         if ($user == null || count($user) == 0)
             return false;
-        else if (password_verify($password, $user['password'])) {
+        else if (hash("sha512", $user['password'])) {
             if ($user['role'] == 1) {
                 $adminUser = new AdminUser($user['firstname'],$user['lastname'], $user['city'],
             $user['country'],$user['phone'],$user['username'],$user['email'],$user['password'],1);
