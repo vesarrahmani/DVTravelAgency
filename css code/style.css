@@ -119,7 +119,7 @@ p {
 	text-decoration: none;
 	color: white;
 	text-transform: uppercase;
-	padding: 20px;
+	padding: 15px;
 	display: block;
 }
 #header .nav-list ul a::after {
