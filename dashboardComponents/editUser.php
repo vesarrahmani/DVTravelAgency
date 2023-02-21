@@ -12,7 +12,7 @@
 
 <body>
     <?php
-    include_once '../sidebar.php';
+    include_once 'actionsSidebar.php';
     ?>
     <div class="overview">
         <div class="title">

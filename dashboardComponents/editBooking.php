@@ -12,7 +12,7 @@
 
 <body>
     <?php
-    include_once '../sidebar.php';
+    include_once 'actionsSidebar.php';
     ?>
     <div class="overview">
         <div class="title">
@@ -54,8 +54,8 @@
                         $data['address'] = $_POST['address'];
                         $data['destination'] = $_POST['destination'];
                         $data['guestNumber'] = $_POST['guestNumber'];
-                        $data['check_out_date'] = $_POST['check_out_date'];
                         $data['check_in_date'] = $_POST['check_in_date'];
+                        $data['check_out_date'] = $_POST['check_out_date'];
                         $update = $mapper->updateBooking($data);
                         if ($update) {
                             echo "<script>alert('record update successfully');</script>";
@@ -99,15 +99,17 @@
                             <span>how many :</span>
                             <input type="number" placeholder="number of guests" id="num" name="guestNumber" value="<?php echo $booking['guestNumber']; ?>">
                         </div>
-                        <div class="inputBox">
-                            <span>leaving :</span>
-                            <input type="text" name="check_out_date" value="<?php echo $booking['check_out_date']; ?>">
-                        </div>
                         
                         <div class="inputBox">
                             <span>arrivals :</span>
-                            <input type="text" placeholder="Ex. 20-05-2020.." name="check_in_date"  value="<?php echo $booking['check_in_date']; ?>">
+                            <input  name="check_in_date" placeholder ="2020-20-01" type="date"  value="<?php echo $booking['check_In_date']; ?>">
                         </div>
+                      
+                        <div class="inputBox">
+                            <span>leaving :</span>
+                            <input name="check_out_date" type="date"  value="<?php echo $booking['check_out_date']; ?>">
+                        </div>
+                        
                     </div>
 
                     <input type="submit" value="Update" class="btn" name="update" onclick="validoMeRegex()">
