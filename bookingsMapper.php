@@ -81,6 +81,7 @@ class BookingsMapper extends Database
         return $data;
     }
 
+    
     public function updateBooking($data)
     {
         $query = "UPDATE bookings SET name='$data[name]', email='$data[email]',address='$data[address]', destination='$data[destination]',

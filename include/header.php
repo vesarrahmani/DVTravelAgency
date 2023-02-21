@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css code/style.css?v=<?php echo time(); ?>">
     <title>Document</title>
 </head>
+
 <body>
     <section id="header">
     <div class="header container">

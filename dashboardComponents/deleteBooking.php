@@ -9,3 +9,4 @@
         echo "<script>alert('Booking deleted successfully');</script>";
     }
  ?>
+ 

@@ -2,6 +2,7 @@
 
 abstract class Person{
 
+    
     protected $firstname;
     protected $lastname;
     protected $city;

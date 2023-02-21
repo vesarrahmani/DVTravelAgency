@@ -126,6 +126,7 @@
    padding: 15px;
    display: block;
   }
+  
   #header .nav-list ul a::after {
    content: attr(data-after);
    position: absolute;

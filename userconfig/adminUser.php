@@ -8,6 +8,7 @@ class AdminUser extends Person{
         parent::__construct($firstname,$lastname,$city,
         $country,$phone,$username,$email,$password,$role);
 
+        
     }
 
     public function setSession(){

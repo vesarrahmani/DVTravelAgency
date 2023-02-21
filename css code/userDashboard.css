@@ -298,7 +298,6 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
-  
   .submitAdd:hover {
     background-color: rgb(218, 164, 218);
   }

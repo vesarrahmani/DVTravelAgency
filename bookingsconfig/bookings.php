@@ -1,5 +1,6 @@
 <?php
 
+
 class Bookings
 {
     protected $name;

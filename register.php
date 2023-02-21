@@ -20,6 +20,7 @@
 
 <!-- register section starts  -->
 
+
 <section class="reg">
 
    <h1 class="heading-title">Please enter your credentials to register</h1>

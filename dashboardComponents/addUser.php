@@ -36,6 +36,7 @@
             require_once '../userconfig/simpleUser.php';
             require_once '../userconfig/adminUser.php';
 
+            
 
             if (isset($_POST['submit'])) {
                 $firstname = $_POST['firstname'];

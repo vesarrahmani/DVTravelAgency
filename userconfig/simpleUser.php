@@ -9,6 +9,7 @@ class SimpleUser extends Person{
         $country,$phone,$email,$password,$role);
 
     }
+    
 
     public function setSession(){
         $_SESSION['role'] = 0;

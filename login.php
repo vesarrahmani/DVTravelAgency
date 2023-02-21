@@ -17,7 +17,6 @@
 <div class="heading" style="background:url(img/header-bg-3.png) no-repeat">
   <h1>Log in</h1>
 </div>
-
 <!-- login section starts  -->
 
 <section class="login">

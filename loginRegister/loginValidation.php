@@ -48,6 +48,7 @@ class LoginLogic
         return false;
     }
 
+    
     private function verifyCorrectData($username, $password)
     {
         $mapper = new UserMapper();
