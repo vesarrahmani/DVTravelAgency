@@ -1,0 +1,61 @@
+  /* addUser css*/
+  
+  .reg-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .reg-form .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .reg-form .inputBox {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .reg-form .inputBox span {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    color: #333;
+  }
+  
+  .reg-form .inputBox input {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #eee;
+  }
+  
+  .reg-form .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .reg-form .btn:hover {
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #333;
+  }
+  
+  .reg-form input[type="submit"]:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .reg-form input[type="submit"]:not(:disabled) {
+    opacity: 1;
+  }
