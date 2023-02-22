@@ -44,7 +44,7 @@
                 <div class="card">
                     <div class="box">
                         <h1>53</h1>
-                        <h3>Teachers</h3>
+                        <h3>Bookings</h3>
                     </div>
                     <div class="icon-case">
                         <img src="teachers.png" alt="">
@@ -53,7 +53,7 @@
                 <div class="card">
                     <div class="box">
                         <h1>5</h1>
-                        <h3>Schools</h3>
+                        <h3>Customers</h3>
                     </div>
                     <div class="icon-case">
                         <img src="schools.png" alt="">
@@ -78,33 +78,33 @@
                     <table>
                         <tr>
                             <th>Name</th>
-                            <th>School</th>
+                            <th>Country</th>
                             <th>Amount</th>
-                            <th>Option</th>
+                          <!--  <th>Option</th>-->
                         </tr>
                         <tr>
-                            <td>John Doe</td>
-                            <td>St. James College</td>
-                            <td>$120</td>
-                            <td><a href="#" class="btn">View</a></td>
+                            <td>Blerta</td>
+                            <td>Gjermani</td>
+                            <td>$1500</td>
+                          <!--  <td><a href="#" class="btn">View</a></td>-->
                         </tr>
                         <tr>
-                            <td>John Doe</td>
-                            <td>St. James College</td>
-                            <td>$120</td>
-                            <td><a href="#" class="btn">View</a></td>
+                            <td>Blend</td>
+                            <td>Finland</td>
+                            <td>$2000</td>
+                           <!-- <td><a href="#" class="btn">View</a></td>-->
                         </tr>
                         <tr>
-                            <td>John Doe</td>
-                            <td>St. James College</td>
-                            <td>$120</td>
-                            <td><a href="#" class="btn">View</a></td>
+                            <td>Sara</td>
+                            <td>Venecia</td>
+                            <td>$2500</td>
+                          <!--  <td><a href="#" class="btn">View</a></td>-->
                         </tr>
                         <tr>
-                            <td>John Doe</td>
-                            <td>St. James College</td>
-                            <td>$120</td>
-                            <td><a href="#" class="btn">View</a></td>
+                            <td>Eron</td>
+                            <td>Zvicer</td>
+                            <td>$1200</td>
+                           <!-- <td><a href="#" class="btn">View</a></td>-->
                         </tr>
                         <tr>
                             <td>John Doe</td>
