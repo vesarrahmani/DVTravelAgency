@@ -69,11 +69,12 @@
                     </div>
                 </div>
             </div>
+            
             <div class="content-2">
                 <div class="recent-payments">
                     <div class="title">
                         <h2>Recent Payments</h2>
-                        <a href="#" class="btn">View All</a>
+                       <!-- <a href="#" class="btn">View All</a>-->
                     </div>
                     <table>
                         <tr>
@@ -83,19 +84,19 @@
                           <!--  <th>Option</th>-->
                         </tr>
                         <tr>
-                            <td>Blerta</td>
+                            <td>Bleona</td>
                             <td>Gjermani</td>
                             <td>$1500</td>
                           <!--  <td><a href="#" class="btn">View</a></td>-->
                         </tr>
                         <tr>
-                            <td>Blend</td>
+                            <td>Deniz</td>
                             <td>Finland</td>
                             <td>$2000</td>
                            <!-- <td><a href="#" class="btn">View</a></td>-->
                         </tr>
                         <tr>
-                            <td>Sara</td>
+                            <td>Bleron</td>
                             <td>Venecia</td>
                             <td>$2500</td>
                           <!--  <td><a href="#" class="btn">View</a></td>-->
@@ -107,48 +108,48 @@
                            <!-- <td><a href="#" class="btn">View</a></td>-->
                         </tr>
                         <tr>
-                            <td>John Doe</td>
-                            <td>St. James College</td>
-                            <td>$120</td>
-                            <td><a href="#" class="btn">View</a></td>
+                            <td>Dijane</td>
+                            <td>France</td>
+                            <td>$3000</td>
+                           <!-- <td><a href="#" class="btn">View</a></td>-->
                         </tr>
                         <tr>
-                            <td>John Doe</td>
-                            <td>St. James College</td>
-                            <td>$120</td>
-                            <td><a href="#" class="btn">View</a></td>
+                            <td>Vesa</td>
+                            <td>Barcelone</td>
+                            <td>$5000</td>
+                         <!--   <td><a href="#" class="btn">View</a></td>-->
                         </tr>
                     </table>
                 </div>
                 <div class="new-students">
                     <div class="title">
-                        <h2>New Students</h2>
-                        <a href="#" class="btn">View All</a>
+                        <h2>New users</h2>
+                        <a href="dashboardComponents/usersDashboard.php" class="btn">View All</a>
                     </div>
                     <table>
                         <tr>
                             <th>Profile</th>
                             <th>Name</th>
-                            <th>option</th>
+                            <!--<th>option</th>-->
                         </tr>
                         <tr>
-                            <td><img src="user.png" alt=""></td>
-                            <td>John Steve Doe</td>
+                            <td><img src="img/vesaa.jpg" alt=""></td>
+                            <td>Vesa updated</td>
                             <td><img src="info.png" alt=""></td>
                         </tr>
                         <tr>
-                            <td><img src="user.png" alt=""></td>
-                            <td>John Steve Doe</td>
+                            <td><img src="img/dijanaa.jpg" alt=""></td>
+                            <td>Dijane</td>
                             <td><img src="info.png" alt=""></td>
                         </tr>
                         <tr>
-                            <td><img src="user.png" alt=""></td>
-                            <td>John Steve Doe</td>
+                            <td><img src="img/dijanaa.jpg" alt=""></td>
+                            <td>dijane updated	</td>
                             <td><img src="info.png" alt=""></td>
                         </tr>
                         <tr>
-                            <td><img src="user.png" alt=""></td>
-                            <td>John Steve Doe</td>
+                            <td><img src="img/dijanaa.jpg" alt=""></td>
+                            <td>dijane updated2	</td>
                             <td><img src="info.png" alt=""></td>
                         </tr>
 
