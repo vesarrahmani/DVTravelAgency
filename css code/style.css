@@ -641,6 +641,7 @@ p {
 		align-items: center;
 		justify-content: center;
 		min-width: 20vh;
+		margin-top: -160px;
 	}
 	#contact .contact-items {
 		width: 100%;

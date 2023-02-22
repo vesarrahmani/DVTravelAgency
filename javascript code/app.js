@@ -137,7 +137,7 @@ var vargu=[
     'img/img-3.jpg',*/
     /*'img/img-4.jpg',*/
     /*'img/s4.jpg',*/
-    'img/s5.webp',
+    'img/s5.jpg',
     'img/s6.jpg'
     
     ]
