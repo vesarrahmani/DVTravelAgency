@@ -4,17 +4,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css code/register.css?v=<?php echo time();?>">
+  <link rel="stylesheet" href="../css/register.css?v=<?php echo time();?>">
   <title>Register</title>
 </head>
 
 <body>
    
   <!-- header section starts  -->
-    <?php include 'include/header.php'; ?>
+    <?php include '../include/header.php'; ?>
   <!-- End Header -->
 
-<div class="heading" style="background:url(img/header-bg-3.png) no-repeat">
+<div class="heading" style="background:url(../img/header-bg-3.png) no-repeat">
   <h1>register</h1>
 </div>
 
@@ -25,7 +25,7 @@
 
    <h1 class="heading-title">Please enter your credentials to register</h1>
 
-   <form method="POST" action="loginRegister/loginValidation.php" class="reg-form">
+   <form method="POST" action="../loginRegister/loginValidation.php" class="reg-form">
 
       <div class="flex">
          <div class="inputBox">
@@ -77,12 +77,12 @@
 
 <!-- footer section starts  -->
 
-<?php include 'include/footer.php'; ?>
+<?php include '../include/footer.php'; ?>
  
 <!-- footer section ends -->
 
 <!-- swiper js link  -->
-<script src="javascript code/app.js"></script>
+<script src="../javascript/app.js"></script>
 
 </body>
 </html>

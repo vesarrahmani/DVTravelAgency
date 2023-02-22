@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css code/dashboard.css?v=<?php echo time();?>">
+    <link rel="stylesheet" href="../css/dashboard.css?v=<?php echo time();?>">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css">
     <title>Admin Panel</title>
 </head>
@@ -18,8 +18,8 @@
         </div>
         <ul>
             <li> <a href="dashboard.php" ><i class="fa fa-home"></i> Dashboard</a></li>
-            <li><a href="dashboardComponents/usersDashboard.php"  ><i class="fa fa-users"></i> Users</a></li>
-            <li><a href="dashboardComponents/bookingsDashboard.php" ><i class="fa fa-calendar"></i> Bookings</a></li>
+            <li><a href="../dashboardComponents/usersDashboard.php"  ><i class="fa fa-users"></i> Users</a></li>
+            <li><a href="../dashboardComponents/bookingsDashboard.php" ><i class="fa fa-calendar"></i> Bookings</a></li>
             <li><a href="index.php" ><i class="fa fa-home"></i>Home</a></li>
         </ul>
     </div>
@@ -124,7 +124,7 @@
                 <div class="new-students">
                     <div class="title">
                         <h2>New users</h2>
-                        <a href="dashboardComponents/usersDashboard.php" class="btn">View All</a>
+                        <a href="../dashboardComponents/usersDashboard.php" class="btn">View All</a>
                     </div>
                     <table>
                         <tr>
@@ -133,22 +133,22 @@
                             <!--<th>option</th>-->
                         </tr>
                         <tr>
-                            <td><img src="img/vesaa.jpg" alt=""></td>
+                            <td><img src="../img/vesaa.jpg" alt=""></td>
                             <td>Vesa updated</td>
                             <td><img src="info.png" alt=""></td>
                         </tr>
                         <tr>
-                            <td><img src="img/dijanaa.jpg" alt=""></td>
+                            <td><img src="../img/dijanaa.jpg" alt=""></td>
                             <td>Dijane</td>
                             <td><img src="info.png" alt=""></td>
                         </tr>
                         <tr>
-                            <td><img src="img/dijanaa.jpg" alt=""></td>
+                            <td><img src="../img/dijanaa.jpg" alt=""></td>
                             <td>dijane updated	</td>
                             <td><img src="info.png" alt=""></td>
                         </tr>
                         <tr>
-                            <td><img src="img/dijanaa.jpg" alt=""></td>
+                            <td><img src="../img/dijanaa.jpg" alt=""></td>
                             <td>dijane updated2	</td>
                             <td><img src="info.png" alt=""></td>
                         </tr>

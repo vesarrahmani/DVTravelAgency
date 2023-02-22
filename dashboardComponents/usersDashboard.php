@@ -22,10 +22,10 @@
             <h1>Hi, Admin</h1>
         </div>
         <ul>
-            <li> <a href="../dashboard.php" ><i class="fa fa-home"></i> Dashboard</a></li>
+            <li> <a href="../pages/dashboard.php" ><i class="fa fa-home"></i> Dashboard</a></li>
             <li><a href="usersDashboard.php"  ><i class="fa fa-users"></i> Users</a></li>
             <li><a href="bookingsDashboard.php" ><i class="fa fa-calendar"></i> Bookings</a></li>
-            <li><a href="../index.php" ><i class="fa fa-home"></i>Home</a></li>
+            <li><a href="../pages/index.php" ><i class="fa fa-home"></i>Home</a></li>
         </ul>
     </div>
     <div class="container">

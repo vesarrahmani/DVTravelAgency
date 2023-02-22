@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Packages</title>
-    <link rel="stylesheet" href="css code/style.css?v=<?php echo time();?>">
+    <link rel="stylesheet" href="../css/style.css?v=<?php echo time();?>">
 </head>
 <body>
    <!-- header section starts  -->
-  <?php include 'include/header.php'; ?>
+  <?php include '../include/header.php'; ?>
   <!-- End Header -->
       <section id="projects">
         <div class="projects container">
@@ -27,7 +27,7 @@
                   for water sports and other adventure activities.</p>
               </div>
               <div class="project-img">
-                <img src="img/header-bg-1.png" alt="img">
+                <img src="../img/header-bg-1.png" alt="img">
               </div>
             </div>
             <div class="project-item">
@@ -40,7 +40,7 @@
                    A trip to New York is a unique experience, what are you waiting for?</p>
               </div>
               <div class="project-img">
-                <img src="img/header-bg-2.png" alt="img">
+                <img src="../img/header-bg-2.png" alt="img">
               </div>
             </div>
             <div class="project-item">
@@ -52,7 +52,7 @@
                    the mountains are dotted with several waterfalls (mentioned above) as well as towering volcanoes.</p>
               </div>
               <div class="project-img">
-                <img src="img/header-bg-3.png" alt="img">
+                <img src="../img/header-bg-3.png" alt="img">
               </div>
             </div>
             <div class="project-item">
@@ -64,15 +64,15 @@
                   vibrant nightlife, awe-inspiring architecture and awesome beaches.</p>
               </div>
               <div class="project-img">
-                <img src="img/home-slide-1.jpg" alt="img">
+                <img src="../img/home-slide-1.jpg" alt="img">
               </div>
             </div>
           </div>
         </div>
       </section>
       <!-- header section starts  -->
-      <?php include 'include/footer.php'; ?>
+      <?php include '../include/footer.php'; ?>
         <!-- End Header -->
-      <script src="javascript code/app.js"></script>
+      <script src="../javascript/app.js"></script>
 </body>
 </html>

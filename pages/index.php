@@ -4,14 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css code/style.css?v=<?php echo time(); ?>">
+  <link rel="stylesheet" href="../css/style.css?v=<?php echo time(); ?>">
   <title>Home - VDtrip</title>
 </head>
 
 <body>
   
   <!-- header section starts  -->
-  <?php include 'include/header.php'; ?>
+  <?php include '../include/header.php'; ?>
   <!-- End Header -->
   
 
@@ -38,14 +38,14 @@
       </div>
       <div class="service-bottom">
         <div class="service-item">
-          <div class="icon"><img src="img/icon-1.png"/></div>
+          <div class="icon"><img src="../img/icon-1.png"/></div>
           <h2>"Wildland Trekking"</h2>
           <p>On Wildland trips, guests discover new landscapes, knowledge and ways to enjoy 
             the natural world. Our all-inclusive trip styles and award-winning guides all serve
              a common goal: to create unforgettable hiking vacations that enrich people's lives."</p>
         </div>
         <div class="service-item">
-          <div class="icon"><img src="img/icon-2.png"/></div>
+          <div class="icon"><img src="../img/icon-2.png"/></div>
           <h2>Exploration</h2>
           <p>Travelling helps you to not only discover the world but to rediscover
             yourself. Allow us to do that by finding you the exact place 
@@ -53,7 +53,7 @@
             Let’s all rediscover ourselves. Contact us at VDTRIP</p>
         </div>
         <div class="service-item">
-          <div class="icon"><img src="img/icon-4.png"/></div>
+          <div class="icon"><img src="../img/icon-4.png"/></div>
           <h2>Camping</h2>
           <p>Camping is supposed to make you happy. 
             Finding the right set of hacks that work for you will make
@@ -63,7 +63,7 @@
         </div>
         <div class="service-item">
           <div class="icon">
-            <img src="img/icon-3.png"/></div>
+            <img src="../img/icon-3.png"/></div>
           <h2>Bike Tour Packages</h2>
           <p>If it is a break from the sedentary 
             lifestyle that you are looking for a break from,
@@ -83,7 +83,7 @@
 
   <!--slider -->
 
-  <img src="" id="imazhet">
+  <img src="../img" id="imazhet">
 
 
 
@@ -92,7 +92,7 @@
     <div class="about container">
       <div class="col-left">
         <div class="about-img">
-          <img src="img/about-img.jpg" alt="img">
+          <img src="../img/about-img.jpg" alt="img">
         </div>
       </div>
       <div class="col-right">
@@ -145,9 +145,9 @@
   <!-- End Contact Section -->
 
   <!-- Footer -->
-    <?php include 'include/footer.php'; ?>
+    <?php include '../include/footer.php'; ?>
   <!-- End Footer -->
-  <script src="javascript code/app.js"></script>
+  <script src="../javascript/app.js"></script>
 </body>
 
 </html>
