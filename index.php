@@ -14,7 +14,7 @@
   <?php include 'include/header.php'; ?>
   <!-- End Header -->
   
-<!--dijana-->
+
 
   <!-- Hero Section  -->
   <section id="hero">
@@ -40,11 +40,8 @@
         <div class="service-item">
           <div class="icon"><img src="img/icon-1.png"/></div>
           <h2>"Wildland Trekking"</h2>
-          <p>"Wildland Trekking" is about Inspired Exploration. 
-            On Wildland trips, guests discover new landscapes, ecosystems, knowledge and ways to enjoy 
-            the natural world. Our goal is for people to be inspired, and their lives enriched,
-             by the wonders of our amazing planet. Our all-inclusive trip styles, award-winning guides,
-             exceptional food, and dialed-in logistics all serve
+          <p>On Wildland trips, guests discover new landscapes, knowledge and ways to enjoy 
+            the natural world. Our all-inclusive trip styles and award-winning guides all serve
              a common goal: to create unforgettable hiking vacations that enrich people's lives."</p>
         </div>
         <div class="service-item">
@@ -56,24 +53,25 @@
             Let’s all rediscover ourselves. Contact us at VDTRIP</p>
         </div>
         <div class="service-item">
+          <div class="icon"><img src="img/icon-4.png"/></div>
+          <h2>Camping</h2>
+          <p>Camping is supposed to make you happy. 
+            Finding the right set of hacks that work for you will make
+            the process a little smoother. Imagine the beauty 
+            of the open roads is spread open in front of you.
+            It will definitely make you less stressed.</p>
+        </div>
+        <div class="service-item">
           <div class="icon">
             <img src="img/icon-3.png"/></div>
           <h2>Bike Tour Packages</h2>
           <p>If it is a break from the sedentary 
             lifestyle that you are looking for a break from,
-            then why not opt for bike tour packages? Imagine the beauty 
-            of the open roads is spread open in front of you, as you maneuver
-            your two-wheeler over easy and rough terrain alike. Take your friend along
-            as a pillion rider, or use the extra space to stock up on some essentials that
+            then why not opt for bike tour packages? Take your friend along
+            and use the extra space to stock up on some essentials that
             you just cannot do without, the choice is yours.</p>
         </div>
-        <div class="service-item">
-          <div class="icon"><img src="img/icon-4.png"/></div>
-          <h2>Camping</h2>
-          <p>Camping is supposed to make you happy. 
-            Finding the right set of hacks that work for you will make
-            the process a little smoother. It will definitely make you less stressed.</p>
-        </div>
+        
       </div>
     </div>
   </section>
