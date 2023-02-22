@@ -35,7 +35,7 @@
                 <div class="card">
                     <div class="box">
                         <h1>2194</h1>
-                        <h3>Students</h3>
+                        <h3>Visitors</h3>
                     </div>
                     <div class="icon-case">
                         <img src="students.png" alt="">
