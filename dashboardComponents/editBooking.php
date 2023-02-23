@@ -36,9 +36,7 @@
 
 
         <div class="activity">
-            <div class="boxx">
-                <a class="submitAdd" href="addUser.php">Edit Booking</a>
-            </div>
+          
             <div class="overlay" id="divOne">
                 <div class="wrapper">
                     <h2>Bookings edit form</h2><a class="close" href="#">&times;</a>
