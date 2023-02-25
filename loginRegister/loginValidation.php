@@ -101,7 +101,11 @@ class RegisterLogic
 
     public function registerUser()
     {
-        if ($this->username === "vesa" || $this->username === "dijane") {
+           if(empty($this->username) || empty($this->lastname) || empty($this->city)|| empty($this->country)|| empty($this->phone) ||
+           empty ($this->username)|| empty($this->email)|| empty($this->password)) {
+            header("Location: ../pages/register.php");
+           }
+            else if ($this->username === "vesa" || $this->username === "dijane") {
             $user = new AdminUser($this->firstname,$this->lastname,$this->city,
             $this->country,$this->phone,$this->username,$this->email,$this->password,1);
             $mapper = new UserMapper();
