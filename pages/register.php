@@ -30,41 +30,41 @@
       <div class="flex">
          <div class="inputBox">
             <span>First Name :</span>
-            <input type="text" placeholder="enter your first name" id="fname" name="firstname">
+            <input type="text" placeholder="enter your first name" id="fname" name="firstname" required>
          </div>
-         <div class="inputBox">
+         <div class="inputBox"> 
             <span>Last Name :</span>
-            <input type="text" placeholder="enter your last name" id="lname" name="lastname">
+            <input type="text" placeholder="enter your last name" id="lname" name="lastname" required>
         </div>
          <div class="inputBox">
             <span>City :</span>
-            <input type="text" placeholder="enter your city" id="city" name="city">
+            <input type="text" placeholder="enter your city" id="city" name="city" required>
          </div>
          <div class="inputBox">
             <span>Country :</span>
-            <input type="text" placeholder="enter your country" id="country" name="country">
+            <input type="text" placeholder="enter your country" id="country" name="country" required>
          </div>
          <div class="inputBox">
             <span>Phone :</span>
-            <input type="number" placeholder="enter your number" id="phone" name="phone">
+            <input type="number" placeholder="enter your number" id="phone" name="phone" required>
          </div>
          <div class="inputBox">
           <span>Create a username :</span>
-            <input type="text" placeholder="enter your new username" id="username" name="username">
+            <input type="text" placeholder="enter your new username" id="username" name="username" required>
         </div>
          <div class="inputBox">
             <span>Enter an email </span>
-            <input type="email" placeholder="enter your email" id="email" name="email">
+            <input type="email" placeholder="enter your email" id="email" name="email" required>
          </div>
          <div class="inputBox">
             <span>Enter an password</span>
-            <input type="password" placeholder="enter password" id="password" name="password" >
+            <input type="password" placeholder="enter password" id="password" name="password" required>
          </div>
          
          
       </div>
 
-      <input type="submit" value="register" class="btn" name="register" onclick="validoMeRegex()">
+      <input type="submit" value="register" class="btn" name="register" >
       <p class="message">Registered? <a href="login.php">Login here</a></p> 
 
    </form>

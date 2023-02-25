@@ -29,12 +29,12 @@
   
         <div class="inputBox">
            <span>Username :</span>
-           <input type="text" placeholder="enter your username" id="username" name="username">
+           <input type="text" placeholder="enter your username" id="username" name="username" required>
         </div>
         <br></br>
         <div class="inputBox">
            <span>Password :</span>
-           <input type="password" placeholder="enter your password" id="password" name="password">
+           <input type="password" placeholder="enter your password" id="password" name="password" required>
         </div>
      </div>
 

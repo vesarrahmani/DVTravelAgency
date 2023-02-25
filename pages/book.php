@@ -49,39 +49,39 @@
       <div class="flex">
          <div class="inputBox">
             <span>name :</span>
-            <input type="text" placeholder="enter your name" id="name" name="name">
+            <input type="text" placeholder="enter your name" id="name" name="name" required>
          </div>
          <div class="inputBox">
             <span>email :</span>
-            <input type="email" placeholder="enter your email" id="email" name="email">
+            <input type="email" placeholder="enter your email" id="email" name="email" required>
          </div>
          <div class="inputBox">
             <span>phone :</span>
-            <input type="text" placeholder="enter your number" id="phone" name="phone">
+            <input type="text" placeholder="enter your number" id="phone" name="phone" required>
          </div>
          <div class="inputBox">
             <span>address :</span>
-            <input type="text" placeholder="enter your address" id="alphanum" name="address">
+            <input type="text" placeholder="enter your address" id="alphanum" name="address" required>
          </div>
          <div class="inputBox">
             <span>where to :</span>
-            <input type="text" placeholder="place you want to visit" id="text" name="destination">
+            <input type="text" placeholder="place you want to visit" id="text" name="destination" required>
          </div>
          <div class="inputBox">
             <span>how many :</span>
-            <input type="number" placeholder="number of guests" id="num" name="guestNumber">
+            <input type="number" placeholder="number of guests" id="num" name="guestNumber" required>
          </div>
          <div class="inputBox">
             <span>arrivals :</span>
-            <input type="date" class="date" name="check_in_date">
+            <input type="date" class="date" name="check_in_date" required>
          </div>
          <div class="inputBox">
             <span>leaving :</span>
-            <input type="date" class="date" name="check_out_date">
+            <input type="date" class="date" name="check_out_date" required>
          </div>
       </div>
 
-      <input type="submit" value="submit" class="btn" name="bookNow" onclick="validoMeRegex()">
+      <input type="submit" value="submit" class="btn" name="bookNow" onclick="validateBook()">
 
    </form>
 

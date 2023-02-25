@@ -5,7 +5,7 @@
     $delete = $mapper->deleteBooking($id);
  
     if ($delete) {
-        header("bookingsDashboard.php");
+        header("Location:bookingsDashboard.php");
         echo "<script>alert('Booking deleted successfully');</script>";
     }
  ?>

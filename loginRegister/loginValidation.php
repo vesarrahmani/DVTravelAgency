@@ -30,11 +30,11 @@ class LoginLogic
     public function verify()
     {
         if ($this->verifyEmptyData($this->username, $this->password)) {
-            header("Location:../pages/register.php");
+            header("Location:../pages/login.php");
         } else if ($this->verifyCorrectData($this->username, $this->password)) {
             header("Location: ../pages/index.php");
         } else {
-            header("Location: ../pages/register.php");
+            header("Location: ../pages/login.php");
         }
     }
 
@@ -106,14 +106,14 @@ class RegisterLogic
             $this->country,$this->phone,$this->username,$this->email,$this->password,1);
             $mapper = new UserMapper();
             $mapper->insertUser($user);
-            header("Location: ../pages/login.php");
+            header("Location: ../pages/register.php"); //nese e lo login po me prishet regexi, nese e lo register logjikisht mas register duhet me t direktu ne login
         }
         else{
             $user = new SimpleUser($this->firstname,$this->lastname,$this->city,
             $this->country,$this->phone,$this->username,$this->email,$this->password,0);
             $mapper = new UserMapper();
             $mapper->insertUser($user);
-            header("Location: ../pages/login.php");
+            header("Location: ../pages/register.php");
         }
     }
 

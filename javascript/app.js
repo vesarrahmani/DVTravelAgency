@@ -24,11 +24,83 @@ menu_item.forEach((item) => {
 	});
 });
 
+//validimi i register
+
+	function validateRegister() {
+    var fname = document.getElementById("fname").value;
+	var lname = document.getElementById("lname").value;
+	var city = document.getElementById("city").value;
+	var country = document.getElementById("country").value;
+	// var phone = document.getElementById("phone").value;
+	var username = document.getElementById("username").value;
+    var email = document.getElementById("email").value;
+    var password = document.getElementById("password").value;
+    
+    // Check if first name contains only letters and spaces
+    var fnameRegex = /^[a-zA-Z\s]*$ /;
+    if (!fnameRegex.test(fname)) {
+       alert("Please enter a valid name.");
+       return false;
+    }
+
+	 // Check if last name contains only letters and spaces
+	var lnameRegex = /^[a-zA-Z\s]*$ /;
+    if (!lnameRegex.test(lname)) {
+       alert("Please enter a valid name.");
+       return false;
+    }
+
+	// Check if city name contains only letters and spaces
+	var cityRegex = /^[a-zA-Z\s]*$ /;
+    if (!cityRegex.test(city)) {
+       alert("Please enter a valid city name.");
+       return false;
+    }
+
+	// Check if country name contains only letters and spaces
+	var countryRegex = /^[a-zA-Z\s]*$ /;
+    if (!countryRegex.test(country)) {
+       alert("Please enter a valid city name.");
+       return false;
+    }
+
+	//Check if phone number contains only numbers, no space
+	// var phoneRegex = /^0\d{8}$ /;
+    // if (!phoneRegex.test(phone)) {
+    //    alert("Please enter a valid phone number.");
+    //    return false;
+    // }
+
+	// Check if username contains only letters
+	var usernameRegex =/^[A-Za-z][A-Za-z0-9_]{7,29}$ /;
+    if (!usernameRegex.test(username)) {
+       alert("Please enter a valid username name.");
+       return false;
+    }
+	
+    
+    // Check if email is valid
+    var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$ /;
+    if (!emailRegex.test(email)) {
+       alert("Please enter a valid email address.");
+       return false;
+    }
+    
+    // Check if password contains at least 8 characters and at least one uppercase letter, one lowercase letter, and one number
+    var passwordRegex = /^(?=.[a-z])(?=.[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$ /;
+    if (!passwordRegex.test(password)) {
+       alert("Please enter a valid password (at least 8 characters, one uppercase letter, one lowercase letter, and one number).");
+       return false;
+    }
+    
+ }
+
+
 
 
 //VALIDIMI i BOOK
 
-function validoMeRegex(){
+function validateBook(){
     var Emri=document.getElementById('name').value;
     var EmriRegex=/^[A-Z]{1}[a-z]{5,15} $/
     
@@ -53,50 +125,50 @@ function validoMeRegex(){
     var Number=document.getElementById('num').value;
 	
 
-
-	
-
     if(EmriRegex.test(Emri)){
-        console.log("Name is valid!");
+        alert("Name is valid!");
     }else{
-        console.log("Name is not valid!");
+        alert("Name is not valid!");
     }
 
 	if(EmailRegex.test(Email)){
-        console.log("Email is valid!");
+        alert("Email is valid!");
     }else{
-        console.log("Email is not valid!");
+        alert("Email is not valid!");
     }
 
     if(PhoneRegex.test(Phone)){
-     console.log("Number is valid!");
+		alert("Number is valid!");
      }else{
-	console.log("Number is not valid!");
+		alert("Number is not valid!");
      }
 
 	if(AlphaNumRegex.test(AlphaNum)){
-		console.log("Address is valid!");
+		alert("Address is valid!");
 		}else{
-	   console.log("Address is not valid!");
+		alert("Address is not valid!");
 		}
-
+	//where to:
 	if(TextRegex.test(Text)){
-		console.log("Text is valid!");
+		alert("Text is valid!");
 		}else{
-	console.log("Text is not valid!");
+		alert("Text is not valid!");
 		}
 
-	if(DateRegex.test(Date)){
-	console.log("Date is valid!");
-	}else{
-	console.log("Date is not valid!");
-	}
-	
 	if(NumberRegex.test(Number)){
-		console.log("Value is valid!");
+		alert("Value is valid!");
 		}else{
-	console.log("Value is not valid!");
+		console.log("Value is not valid!");
 		}
+
+	if(DateRegex.
+		test(Date)){
+		alert("Date is valid!");
+		}else{
+		alert("Date is not valid!");
+		}
+	
+	
 
 
 	//VALIDIMI I LOGIN FORMES
@@ -104,21 +176,22 @@ function validoMeRegex(){
 	function validateLogin(){
 		var email = document.getElementById('email').value;
 		var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+
 		var password = document.getElementById('password').value;
 		var passRegex = /^[A-Za-z0-9!@#$%^&*()_]{6,20}$/
 	
 		if (emailRegex.test(email)) {
-			console.log("Email is valid!");
+			alert("Email is valid!");
 		} 
 			else {
-			console.log("Email is not valid!");
+			alert("Email is not valid!");
 		}
 	
 		if (passRegex.test(password)) {
-			console.log("Password is valid!");
+			alert("Password is valid!");
 		} 
 			else {
-			console.log("Password is not valid!");
+			alert("Password is not valid!");
 		}
 		
 		}
