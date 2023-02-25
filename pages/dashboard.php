@@ -27,7 +27,7 @@
         <div class="header">
             <div class="nav">
 
-                <marquee><b>VD TRIP ~ Let's travel together! Our Travel agents help their clients make travel plans.  Copyright © 2022 VD trip. All rights reserved</b></marquee>
+                <marquee><b>VD TRIP</b> ~ Let's travel together! Our Travel agents help their clients make travel plans.  Copyright © 2022 VD trip. All rights reserved</marquee>
                 
                 
             </div>
