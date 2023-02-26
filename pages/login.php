@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/login.css?v=<?php echo time();?>">
+  <link rel="stylesheet" href="../css/forms.css?v=<?php echo time();?>">
   <link rel="icon" href="../img/logo.png" type="image/png">
   <title>Login</title>
 </head>
@@ -20,11 +20,11 @@
 </div>
 <!-- login section starts  -->
 
-<section class="login">
+<section class="form">
 
   <h1 class="heading-title">Login now!</h1>
 
-  <form method="post" action="../loginRegister/loginValidation.php"  class="login-form">
+  <form method="post" action="../loginRegister/loginValidation.php"  class="form-form">
 
      <div class="flex">
   

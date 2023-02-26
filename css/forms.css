@@ -244,22 +244,22 @@ section{
 }
 
 
-.login .login-form{
+.form .form-form{
   padding:2rem;
   background: var(--light-bg);
 }
 
-.login .login-form .flex{
+.form .form-form .flex{
   display: flex;
   flex-wrap: wrap;
   gap:2rem;
 }
 
-.login .login-form .flex .inputBox{
+.form .form-form .flex .inputBox{
   flex:1 1 41rem;
 }
 
-.login .login-form .flex .inputBox input{
+.form .form-form .flex .inputBox input{
   width: 100%;
   padding:1.2rem 1.4rem;
   font-size: 1.6rem;
@@ -269,21 +269,21 @@ section{
   border:var(--border);
 }
 
-.login .login-form .flex .inputBox input:focus{
+.form .form-form .flex .inputBox input:focus{
   background: var(--black);
   color:var(--white);
 }
 
-.login .login-form .flex .inputBox input:focus::placeholder{
+.form .form-form .flex .inputBox input:focus::placeholder{
   color:var(--light-white);
 }
 
-.login .login-form .flex .inputBox span{
+.form .form-form .flex .inputBox span{
   font-size: 1.5rem;
   color:var(--light-black);
 }
 
-.login .login-form .btn{
+.form .form-form .btn{
   margin-top: 2rem;
 }
 .message{

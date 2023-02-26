@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/register.css?v=<?php echo time();?>">
+  <link rel="stylesheet" href="../css/forms.css?v=<?php echo time();?>">
   <link rel="icon" href="../img/logo.png" type="image/png">
   <title>Register</title>
 </head>
@@ -22,11 +22,11 @@
 <!-- register section starts  -->
 
 
-<section class="reg">
+<section class="form">
 
    <h1 class="heading-title">Please enter your credentials to register</h1>
 
-   <form method="POST" action="../loginRegister/loginValidation.php" class="reg-form">
+   <form method="POST" action="../loginRegister/loginValidation.php" class="form-form">
 
       <div class="flex">
          <div class="inputBox">
