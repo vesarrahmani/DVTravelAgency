@@ -18,6 +18,6 @@ Ky projekt eshte i punuar ne:
 
 Punuar nga:
 
-Vesa Rrahmani - (vr56077@ubt-uni.net) G3B
+Vesa Rrahmani - (vr56077@ubt-uni.net) 
 
-Dijane Hoti - (dh55969@ubt-uni.net) G3B
+Dijane Hoti - (dh55969@ubt-uni.net) 
