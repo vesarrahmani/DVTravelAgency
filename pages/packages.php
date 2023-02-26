@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Packages</title>
     <link rel="stylesheet" href="../css/style.css?v=<?php echo time();?>">
+    <link rel="icon" href="../img/logo.png" type="image/png">
 </head>
 <body>
    <!-- header section starts  -->

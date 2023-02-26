@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css?v=<?php echo time(); ?>">
-    <title>Document</title>
+    <title>VDtrip</title>
+    
 </head>
 
 <body>
@@ -50,7 +51,7 @@
             <?php
             }
             ?>
-            
+
             <!--set an if case me logjiken qe pa qene login mos me u shfaq mundesia me bo book(rezervim) -->
             <?php
             if(isset($_SESSION['user']) && $_SESSION['user'] = 'loggedIn'){ 
