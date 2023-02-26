@@ -28,11 +28,11 @@ menu_item.forEach((item) => {
 
 	function validateRegister() {
     var fname = document.getElementById("fname").value;
-	var lname = document.getElementById("lname").value;
-	var city = document.getElementById("city").value;
-	var country = document.getElementById("country").value;
-	// var phone = document.getElementById("phone").value;
-	var username = document.getElementById("username").value;
+    var lname = document.getElementById("lname").value;
+    var city = document.getElementById("city").value;
+    var country = document.getElementById("country").value;
+    var phone = document.getElementById("phone").value;
+    var username = document.getElementById("username").value;
     var email = document.getElementById("email").value;
     var password = document.getElementById("password").value;
     
@@ -65,11 +65,11 @@ menu_item.forEach((item) => {
     }
 
 	//Check if phone number contains only numbers, no space
-	// var phoneRegex = /^0\d{8}$ /;
-    // if (!phoneRegex.test(phone)) {
-    //    alert("Please enter a valid phone number.");
-    //    return false;
-    // }
+	var phoneRegex = /^0\d{8}$ /;
+     if (!phoneRegex.test(phone)) {
+        alert("Please enter a valid phone number.");
+        return false;
+     }
 
 	// Check if username contains only letters
 	var usernameRegex =/^[A-Za-z][A-Za-z0-9_]{7,29}$ /;
@@ -94,7 +94,7 @@ menu_item.forEach((item) => {
     }
     
  }
-
+ //validateRegister()
 
 
 
@@ -168,9 +168,6 @@ function validateBook(){
 		alert("Date is not valid!");
 		}
 	
-	
-
-
 	//VALIDIMI I LOGIN FORMES
 
 	function validateLogin(){

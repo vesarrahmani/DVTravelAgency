@@ -38,7 +38,8 @@
         </div>
      </div>
 
-     <input type="submit" value="login" class="btn" name="login" onclick="validateLogin()">
+     <input type="submit" value="login" class="btn" name="login">
+     <!-- onclick=" validimiLogin()"-->
      <p class="message">Not registered? <a href="register.php">Create an account</a></p> 
 
   </form>
@@ -60,10 +61,3 @@
 </body>
 </html>
 
-<?php
-$connection = mysqli_connect('localhost', 'root','','')
-
-
-
-
-?>

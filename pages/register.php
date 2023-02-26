@@ -64,7 +64,8 @@
          
       </div>
 
-      <input type="submit" value="register" class="btn" name="register" >
+      <input type="submit" value="register" class="btn" name="register" > 
+      <!--onclick=validateRegister()-->
       <p class="message">Registered? <a href="login.php">Login here</a></p> 
 
    </form>
