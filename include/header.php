@@ -31,11 +31,11 @@
               <?php
             }
             ?>
-            <li><a href="index.php#hero" data-after="Home">Home</a></li>
-            <li><a href="packages.php" data-after="Service">Packages</a></li>
-            <li><a href="index.php#about" data-after="About">About</a></li>
-            <li><a href="index.php#contact" data-after="Contact">Contact</a></li>
-            <li><a href="register.php" data-after="Contact">Register</a></li>
+              <li><a href="index.php#hero" data-after="Home">Home</a></li>
+              <li><a href="packages.php" data-after="Service">Packages</a></li>
+              <li><a href="index.php#about" data-after="About">About</a></li>
+              <li><a href="index.php#contact" data-after="Contact">Contact</a></li>
+              <li><a href="register.php" data-after="Contact">Register</a></li>
             <?php
             if(!isset($_SESSION['role'])){
               ?>
@@ -45,12 +45,20 @@
             ?>
             <?php
             if(isset($_SESSION['role'])){
-              ?>
+            ?>
               <li><a href="../loginRegister/logout.php" data-after="Contact">Log Out</a></li>
-              <?php
+            <?php
             }
             ?>
+            
+            <!--set an if case me logjiken qe pa qene login mos me u shfaq mundesia me bo book(rezervim) -->
+            <?php
+            if(isset($_SESSION['user']) && $_SESSION['user'] = 'loggedIn'){ 
+            ?>
             <li><a href="book.php" data-after="Contact">Book now</a></li>
+            <?php
+            }
+            ?>
           </ul>
         </div>
       </div>
