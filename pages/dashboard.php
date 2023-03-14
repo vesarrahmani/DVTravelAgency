@@ -77,50 +77,42 @@
                 <div class="recent-payments">
                     <div class="title">
                         <h2>Recent Payments</h2>
-                       <!-- <a href="#" class="btn">View All</a>-->
                     </div>
                     <table>
                         <tr>
                             <th>Name</th>
                             <th>Country</th>
                             <th>Amount</th>
-                          <!--  <th>Option</th>-->
                         </tr>
                         <tr>
                             <td>Bleona</td>
                             <td>Gjermani</td>
                             <td>$1500</td>
-                          <!--  <td><a href="#" class="btn">View</a></td>-->
                         </tr>
                         <tr>
                             <td>Deniz</td>
                             <td>Finland</td>
                             <td>$2000</td>
-                           <!-- <td><a href="#" class="btn">View</a></td>-->
                         </tr>
                         <tr>
                             <td>Bleron</td>
                             <td>Venecia</td>
                             <td>$2500</td>
-                          <!--  <td><a href="#" class="btn">View</a></td>-->
                         </tr>
                         <tr>
                             <td>Eron</td>
                             <td>Zvicer</td>
                             <td>$1200</td>
-                           <!-- <td><a href="#" class="btn">View</a></td>-->
                         </tr>
                         <tr>
                             <td>Dijane</td>
                             <td>France</td>
                             <td>$3000</td>
-                           <!-- <td><a href="#" class="btn">View</a></td>-->
                         </tr>
                         <tr>
                             <td>Vesa</td>
                             <td>Barcelone</td>
                             <td>$5000</td>
-                         <!--   <td><a href="#" class="btn">View</a></td>-->
                         </tr>
                     </table>
                 </div>
@@ -133,7 +125,6 @@
                         <tr>
                             <th>Profile</th>
                             <th>Name</th>
-                            <!--<th>option</th>-->
                         </tr>
                         <tr>
                             <td><img src="../img/vesaa.jpg" alt=""></td>
